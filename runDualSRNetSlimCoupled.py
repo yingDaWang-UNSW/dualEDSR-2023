@@ -1,9 +1,7 @@
 '''
 Double 2D super resolution method
 '''
-#run runDualSRNetSlimCoupled.py --dataset_dir '/media/user/HDD5/Dual-EDSR-main/dataset for training/' --gpuIDs 1 --modelName 'dualEDSR-2023-imperialCarbonate' --continue_train False --continueEpoch 24
-#   ...: 0  --batch_size 32 --fine_size 32 --augFlag False --itersPerEpoch 333 --iterCyclesPerEpoch 3 --scale 4 --save_freq 1 --srganFlag False --phase 'test' --test_dir '/media/user/HDD5/Dual-EDSR-main/' --t
-#   ...: est_temp_save_dir '/media/user/SSD2/allP/temp/' --test_save_dir '/media/user/HDD5/Dual-EDSR-main/testSR' --valNum 0 --print_freq 10 --ngsrf 64 --srAdv_lambda 1e-3
+#run runDualSRNetSlimCoupled.py --dataset_dir '/media/user/HDD5/Dual-EDSR-main/dataset for training/' --gpuIDs 1 --modelName 'dualEDSR-2023-imperialCarbonate' --continue_train False --continueEpoch 240  --batch_size 32 --fine_size 32 --augFlag False --itersPerEpoch 333 --iterCyclesPerEpoch 3 --scale 4 --save_freq 1 --srganFlag False --phase 'test' --test_dir '/media/user/HDD5/Dual-EDSR-main/' --test_temp_save_dir '/media/user/SSD2/allP/temp/' --test_save_dir '/media/user/HDD5/Dual-EDSR-main/testSR' --valNum 0 --print_freq 10 --ngsrf 64 --srAdv_lambda 1e-3
 
 
 #TODO: write up testing section if train if test. enable substacking!
